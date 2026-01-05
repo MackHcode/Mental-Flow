@@ -1,11 +1,11 @@
 body {
-    background-color: #f4f4f9;
+    background-color:floralwhite;
     font-family: 'Segoe UI', sans-serif;
-    color: #333;
+    color: #000;
 }
 
 h1 {
-    color: #3a6ea5;
+    color: #3aa5a1;
     text-align: center;
 }
 
@@ -20,9 +20,32 @@ h1 {
 .contact-title {
     color: #000;
 }
-/* INFO PAGE HERO */
+
+
+
+
+
+
+
+/* INFO PAGE HERO- mack */
 .info-hero {
+  background-color: #1f3d2b;     
+  color: #ffffff;                
   padding: 60px 20px;
+  border-radius: 20px;          
+}
+
+.info-hero h1 {
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.info-hero p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 700px;              
 }
 
 /* DISORDER CARDS */
@@ -55,29 +78,77 @@ h1 {
 
 
 /* SUPPORT LINKS */
-.support-links a {
-  color: #2563eb;
+.support-links {
+  display: block;
+  background-color: #3a6b4f; /* lighter green  */
+  border-radius: 20px;
+  padding: 40px 20px;
+  color: #ffffff;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.support-links a,
+.support-links a:visited,
+.support-links a:active {
+  color: #ffffff !important;
   text-decoration: none;
   font-weight: 500;
 }
 
+
+/* Hover effect  */
+.support-links:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Remove default list spacing */
+.support-links ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* Space out links */
+.support-links li {
+  margin: 12px 0;
+}
+
+/* Links styling */
+.support-links a {
+  color: #ffffff;       /* white links */
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* Hover effect for links */
 .support-links a:hover {
   text-decoration: underline;
+  color: #25b360;
 }
 
 /* PERSONAL STORIES */
 .story-card {
-  background-color: #f1f5f9;
+  background-color:#1f3d2b  !important;  /* green background */
   padding: 25px;
-  border-radius: 12px;
+  border-radius: 12px;/* rounded corners */
   font-style: italic;
+  font-weight: 700;
+  color:#ffffff;  
+  transition: transform 0.25s ease, box-shadow 0.25s ease; /* hover effect */
 }
 
+/* Hover effect */
+.story-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Author span styling */
 .story-card span {
   display: block;
   margin-top: 10px;
   font-weight: 600;
   text-align: right;
+  color: #25b360;                 
 }
 
 /* FOOTER */
