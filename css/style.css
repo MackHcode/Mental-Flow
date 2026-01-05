@@ -1,0 +1,107 @@
+body {
+    background-color: #f4f4f9;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+
+h1 {
+    color: #3a6ea5;
+    text-align: center;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+.contact-title {
+    color: #000;
+}
+/* INFO PAGE HERO */
+.info-hero {
+  padding: 60px 20px;
+}
+
+/* DISORDER CARDS */
+.disorder-card {
+  background-color: #1f3d2b; /* dark calming green */
+  color: #ffffff;
+  border: none;
+  border-radius: 18px; /* rounded corners */
+  padding: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Title inside the card */
+.disorder-card .card-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Text inside the card */
+.disorder-card .card-text {
+  color: #e6f4ea; 
+  font-size: 0.95rem;
+}
+
+/* Hover effect subtle, */
+.disorder-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+
+/* SUPPORT LINKS */
+.support-links a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.support-links a:hover {
+  text-decoration: underline;
+}
+
+/* PERSONAL STORIES */
+.story-card {
+  background-color: #f1f5f9;
+  padding: 25px;
+  border-radius: 12px;
+  font-style: italic;
+}
+
+.story-card span {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+  text-align: right;
+}
+
+/* FOOTER */
+.site-footer {
+  background-color: #1f2933;
+  color: #ffffff;
+  padding: 40px 0;
+}
+
+.site-footer a {
+  color: #cbd5e1;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-quote {
+  font-style: italic;
+  color: #e5e7eb;
+}
+
+.hotline {
+  color: #fca5a5;
+  font-weight: bold;
+}
